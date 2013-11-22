@@ -32,8 +32,9 @@ nav,
 section,
 summary {
   display: block;
-	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+  /* Nolan 20-11-2013 
+		 Content area padding */
+  padding: 0 65px;
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
@@ -128,7 +129,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  /* Nolan 13-11-2013 */
+  /* Nolan 13-11-2013 
+		 Main Background Colour*/
   background-color: #d7d7d7;
 }
 
@@ -191,42 +193,42 @@ h1 {
   @include leader(1, $h1-font-size);
   @include trailer(1, $h1-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 h2 {
   @include adjust-font-size-to( $h2-font-size );
   @include leader(1, $h2-font-size);
   @include trailer(1, $h2-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 h3 {
   @include adjust-font-size-to( $h3-font-size );
   @include leader(1, $h3-font-size);
   @include trailer(1, $h3-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 h4 {
   @include adjust-font-size-to( $h4-font-size );
   @include leader(1, $h4-font-size);
   @include trailer(1, $h4-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 h5 {
   @include adjust-font-size-to( $h5-font-size );
   @include leader(1, $h5-font-size);
   @include trailer(1, $h5-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 h6 {
   @include adjust-font-size-to( $h6-font-size );
   @include leader(1, $h6-font-size);
   @include trailer(1, $h6-font-size);
 	/* Nolan 20-11-2013 */
-	padding: 0 50px;
+	padding: $Head-Indent;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
