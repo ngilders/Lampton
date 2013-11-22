@@ -91,7 +91,7 @@ $font-monospace:   $courier;
 
 // Nolan 22-11-2013
 // Variable created for the left indent of Headers
-$Head-Indent: 65px;
+$Head-Indent: 0 65px;
 
 //
 // Colors, etc.

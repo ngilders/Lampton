@@ -56,8 +56,10 @@ $zen-auto-include-item-base: false;
 #header, {
 	padding: 0 50px;
 }
+/* Nolan 22-11-2013
+	 variable declared:_init.scss line:94 */
 #footer, {
-	padding: 0 50px;
+	padding: $content-indent;
 }
 
 /* Containers for grid items and flow items. */

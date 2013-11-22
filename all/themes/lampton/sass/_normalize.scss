@@ -194,7 +194,7 @@ h1 {
   @include trailer(1, $h1-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 h2 {
   @include adjust-font-size-to( $h2-font-size );
@@ -202,7 +202,7 @@ h2 {
   @include trailer(1, $h2-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 h3 {
   @include adjust-font-size-to( $h3-font-size );
@@ -210,7 +210,7 @@ h3 {
   @include trailer(1, $h3-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 h4 {
   @include adjust-font-size-to( $h4-font-size );
@@ -218,7 +218,7 @@ h4 {
   @include trailer(1, $h4-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 h5 {
   @include adjust-font-size-to( $h5-font-size );
@@ -226,7 +226,7 @@ h5 {
   @include trailer(1, $h5-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 h6 {
   @include adjust-font-size-to( $h6-font-size );
@@ -234,7 +234,7 @@ h6 {
   @include trailer(1, $h6-font-size);
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
