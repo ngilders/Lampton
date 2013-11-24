@@ -29,11 +29,16 @@
 img.imageblock-image { 
 	//margin-top: 11px;
 	background-color: #b7b7b7;
-  padding: 1px 0 10px 0;
+  padding: 2px 0 10px 0;
  }
 
 div.region-header { 
 	float: right; 
 	//margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+hr {
+	height: 10px;
+	color: black;
 }

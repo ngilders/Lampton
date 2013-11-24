@@ -1880,3 +1880,9 @@ div.region-header {
   float: right;
   margin-bottom: 10px;
 }
+
+/* line 41, ../sass/styles.scss */
+hr {
+  height: 0px;
+  color: black;
+}

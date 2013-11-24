@@ -38,7 +38,7 @@ $zen-auto-include-item-base: false;
 	/* Nolan 20-11-2013
   max-width: 1200px; */
   max-width: 1000px;
-	background-color: white;
+	background-color: #d7d7d7;
 	//padding: 10px 50px 10px 50px;
 }
 
@@ -59,7 +59,7 @@ $zen-auto-include-item-base: false;
 /* Nolan 22-11-2013
 	 variable declared:_init.scss line:94 */
 #footer, {
-	padding: $Head-Indent;
+	padding: $content-indent;
 }
 
 /* Containers for grid items and flow items. */
