@@ -364,7 +364,8 @@ a.tabs-primary__tab-link {
   &:hover,
   &:focus {
     @extend %tabs-primary__tab-link-is-hover;
-		background: red;
+		/* Nolan 25-11-2013 
+		background: red; */
   }
   &:active {
     @extend %tabs-primary__tab-link-is-active;
@@ -714,7 +715,8 @@ form {
   }
   tbody {
     border-top: 1px solid #ccc;
-border-bottom: 5px solid red;
+		/* Nolan 25-11-2013		
+		border-bottom: 5px solid red; */
   }
   table ul {
     margin: 0;
