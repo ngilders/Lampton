@@ -838,25 +838,25 @@ table {
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
-		margin-top: 70px;
+    margin-top: 73px;
   }
 
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 195, ../sass/layouts/_responsive.scss */
+  /* line 196, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 197, ../sass/layouts/_responsive.scss */
+  /* line 198, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 202, ../sass/layouts/_responsive.scss */
+  /* line 203, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -867,27 +867,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 210, ../sass/layouts/_responsive.scss */
+  /* line 211, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 212, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 217, ../sass/layouts/_responsive.scss */
+  /* line 218, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 222, ../sass/layouts/_responsive.scss */
+  /* line 223, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -980,7 +980,7 @@ table {
 /* line 88, ../sass/components/_misc.scss */
 .header__logo-image {
   vertical-align: bottom;
-  margin-bottom: -109px;
+  margin-bottom: -95px;
 }
 
 /* Wrapper for website name and slogan. */
@@ -1880,4 +1880,10 @@ img.imageblock-image {
 div.region-header {
   float: right;
   margin-bottom: 10px;
+}
+
+/* line 41, ../sass/styles.scss */
+hr {
+  height: 0px;
+  color: black;
 }

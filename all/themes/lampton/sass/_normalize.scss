@@ -141,24 +141,30 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+	text-decoration: none;
 }
 a:visited {
+	text-decoration: none;
 }
 a:hover,
 a:focus {
+	text-decoration: none;
 }
 a:active {
+	text-decoration: none;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
 a:focus {
   outline: thin dotted;
+	text-decoration: none;
 }
 
 /* Improve readability when focused and also mouse hovered in all browsers. */
 a:active,
 a:hover {
   outline: 0;
+	text-decoration: none;
 }
 
 /**

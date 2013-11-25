@@ -90,8 +90,8 @@ $font-body:        $verdana;
 $font-monospace:   $courier;
 
 // Nolan 22-11-2013
-// Variable created for the left indent of Headers
-$Head-Indent: 0 65px;
+// Variable created for the margin indent of content
+$content-indent: 0 65px;
 
 //
 // Colors, etc.
@@ -105,7 +105,7 @@ $nav-height: 3em;
 
 // Tab styling.
 $tabs-container-bg: #fff;
-$tabs-border: #bbb;
+$tabs-border: red;
 
 
 // =============================================================================

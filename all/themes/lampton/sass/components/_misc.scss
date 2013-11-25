@@ -87,7 +87,7 @@
 /* Logo image. */
 .header__logo-image {
   vertical-align: bottom;
-	margin-bottom: -109px;
+	margin-bottom: -95px;
 }
 
 /* Wrapper for website name and slogan. */
@@ -111,7 +111,9 @@
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+		/* Nolan 25-11-2013
+    text-decoration: underline; */
+		text-decoration: none;
   }
 }
 
@@ -155,6 +157,7 @@
 		//margin-top: 13px;
     text-align: center; /* LTR */
 		/* Nolan 13-11-2013 */
+		text-transform: uppercase;
 		float: right;
 
     li {
@@ -166,7 +169,6 @@
       list-style-image: none;
       /* Nolan 29-10-2013 */
       //padding-left: 7px;
-			font-weight: bold;
 		  color: white;
     }
 

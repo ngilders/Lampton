@@ -38,7 +38,7 @@ $zen-auto-include-item-base: false;
 	/* Nolan 20-11-2013
   max-width: 1200px; */
   max-width: 1000px;
-	background-color: #d7d7d7;
+	background-color: white;
 	//padding: 10px 50px 10px 50px;
 }
 
@@ -186,6 +186,7 @@ $zen-auto-include-item-base: false;
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
       @include zen-grid-item(1, 1);
+			margin-top: 70px;
     }
   }
 
