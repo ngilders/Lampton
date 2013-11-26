@@ -179,18 +179,19 @@
 		/* Nolan 13-11-2013 
 			 Navigation links below */
 		.active {
-		  background-color: #b7b7b7;
+		  background-color: #bcbec0;
 			color: white;
 		}
 		a {
 			text-decoration: none;
 			color: black;
-			padding: 28px 20px 27px 20px;
+			padding: 28px 25px 27px 25px;
+
 		}
 /* Nolan 21-11-2013 
    Do rollover on the list items? */
 		a:hover {
-			background-color: #e8e8e8;
+			background-color: #d1d3d4;
 			color: black;
 		} 
   }
@@ -365,7 +366,7 @@ a.tabs-primary__tab-link {
   &:focus {
     @extend %tabs-primary__tab-link-is-hover;
 		/* Nolan 25-11-2013 
-		background: red;*/
+		background: red; */
   }
   &:active {
     @extend %tabs-primary__tab-link-is-active;

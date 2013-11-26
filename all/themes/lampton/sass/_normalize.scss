@@ -34,7 +34,7 @@ summary {
   display: block;
   /* Nolan 20-11-2013 
 		 Content area padding */
-  padding: 0 65px;
+  padding: $content-indent;
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
@@ -131,7 +131,7 @@ body {
   padding: 0;
   /* Nolan 13-11-2013 
 		 Main Background Colour*/
-  background-color: #d7d7d7;
+  background-color: #e7e8e9;
 }
 
 /**
