@@ -24,13 +24,13 @@
 /* @import "theme-A"; */
 /* @import "theme-B"; */
 
-	/* Nolan 20-11-2013 
-		 Main Home Page image */
+/* Nolan 20-11-2013 
+	 Main Home Page image */
 img.imageblock-image { 
 	//margin-top: 11px;
 	background-color: #d1d3d4;
   padding: 2px 0 15px 0;
- }
+}
 
 div.region-header { 
 	float: right; 
@@ -41,4 +41,14 @@ div.region-header {
 hr {
 	height: 0px;
 	color: black;
+}
+
+div#logo360 {
+	margin: -25px 0 0 78px;
+}
+
+/* Nolan 29-11-2013
+ 	 Logo block width */
+div#block-block-3 {
+	width: 300px;	
 }

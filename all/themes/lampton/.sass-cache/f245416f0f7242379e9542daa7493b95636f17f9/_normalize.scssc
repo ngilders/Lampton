@@ -1202,18 +1202,18 @@ width;o:Sass::Script::String;"	auto;@	;:identifier;@	;	iƒ:
 ;["C/* Apply borders and padding that keep the vertical rhythm. */;@;;;	iŸ;
 [ o;; ;!;["border-color;o;";"#c0c0c0;@;;#;@;	i ;i ;
 [ o;8;"apply-side-rhythm-border;90;@;:[o;"	;"top;@;;#;	i¡;	i¡;;{"
-lineso;0;1@];f0.34999999999999998 ff;@;2[ ;	i¡;3"	0.35"
-widtho;0;1[ ;i;@;2["px;	i¡;3"1px;
+widtho;0;1[ ;i;@;2["px;	i¡;3"1px"
+lineso;0;1@];f0.34999999999999998 ff;@;2[ ;	i¡;3"	0.35;
 [ o;8;"apply-side-rhythm-border;90;@;:[o;"	;"bottom;@;;#;	i¢;	i¢;;{"
-lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i¢;3"	0.65"
-widtho;0;1[ ;i;@;2["px;	i¢;3"1px;
+widtho;0;1[ ;i;@;2["px;	i¢;3"1px"
+lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i¢;3"	0.65;
 [ o;8;"apply-side-rhythm-border;90;@;:[o;"	;"	left;@;;#;	i£;	i£;;{"
-lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i£;3"	0.65"
-widtho;0;1[ ;i;@;2["px;	i£;3"1px;
+widtho;0;1[ ;i;@;2["px;	i£;3"1px"
+lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i£;3"	0.65;
 [ o;8;"apply-side-rhythm-border;90;@;:[o;"	;"
 right;@;;#;	i¤;	i¤;;{"
-lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i¤;3"	0.65"
-widtho;0;1[ ;i;@;2["px;	i¤;3"1px;
+widtho;0;1[ ;i;@;2["px;	i¤;3"1px"
+lineso;0;1@];f0.65000000000000002 ÌÍ;@;2[ ;	i¤;3"	0.65;
 [ o;
 ;["¼/**
  * 1. Correct `color` not being inherited in IE 8/9.
