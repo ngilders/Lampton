@@ -42,7 +42,8 @@ summary {
   display: block;
   /* Nolan 20-11-2013 
 		 Content area padding */
-  padding: 0 78px;
+  padding: 0 8%;
+border: 1px solid red;
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
@@ -213,7 +214,7 @@ h1 {
   margin-bottom: 0.75em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* line 205, ../sass/_normalize.scss */
@@ -224,7 +225,7 @@ h2 {
   margin-bottom: 1em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* line 213, ../sass/_normalize.scss */
@@ -235,7 +236,7 @@ h3 {
   margin-bottom: 1.28205em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* line 221, ../sass/_normalize.scss */
@@ -246,7 +247,7 @@ h4 {
   margin-bottom: 1.5em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* line 229, ../sass/_normalize.scss */
@@ -257,7 +258,7 @@ h5 {
   margin-bottom: 1.80723em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* line 237, ../sass/_normalize.scss */
@@ -268,7 +269,7 @@ h6 {
   margin-bottom: 2.23881em;
   /* Nolan 20-11-2013 
   	 variable declared:_init.scss line:94 */
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
@@ -669,14 +670,14 @@ table {
 /* Nolan 20-11-2013 */
 /* line 56, ../sass/layouts/_responsive.scss */
 #header {
-  padding: 0 80px;
+  padding: 10px 80px;
 }
 
 /* Nolan 22-11-2013
 	 variable declared:_init.scss line:94 */
 /* line 61, ../sass/layouts/_responsive.scss */
 #footer {
-  padding: 0 78px;
+  padding: 0 8%;
 }
 
 /* Containers for grid items and flow items. */
@@ -1892,31 +1893,74 @@ tr.selected td {
     display: none;
   }
 }
+/* Nolan 3-11-2013
+	 addition for the handheld styles	*/
+/**
+ * @file
+ * Handheld styling
+ *
+ * Created by Nolan 3-11-2013
+ */
+/**
+ * By importing this CSS file as media "all", we allow this print file to be
+ * aggregated with other stylesheets, for improved front-end performance.
+ */
+@media only screen and (max-device-width: 500px) {
+  /* Nolan 3-11-2013
+  	 Remove logo */
+  /* line 16, ../sass/_handheld.scss */
+  div#logo360 {
+    display: none;
+  }
+
+  /* Nolan 3-11-2013
+  	 Remove navigation float */
+  /* line 22, ../sass/_handheld.scss */
+  #navigation .links, #navigation .menu {
+    float: none;
+  }
+
+  /* Nolan 3-11-2013
+  	 Remove navigation padding */
+  /* line 29, ../sass/_handheld.scss */
+  #navigation .links a,
+  #navigation .menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+  }
+}
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
 /* Nolan 20-11-2013 
 	 Main Home Page image */
-/* line 29, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 img.imageblock-image {
   background-color: #d1d3d4;
   padding: 2px 0 15px 0;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 div.region-header {
   float: right;
   margin-bottom: 10px;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 hr {
   height: 0px;
   color: black;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 div#logo360 {
-  margin: 0 0 0 0;
-  border: 1px solid red;
+  margin: -25px 0 0 78px;
+}
+
+/* Nolan 29-11-2013
+ 	 Logo block width */
+/* line 55, ../sass/styles.scss */
+div#block-block-3 {
+  width: 300px;
 }

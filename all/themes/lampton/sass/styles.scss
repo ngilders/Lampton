@@ -19,6 +19,9 @@
 @import "components/misc";
 // Optionally, add your own components here.
 @import "print";
+/* Nolan 3-11-2013
+	 addition for the handheld styles	*/
+@import "handheld";
 
 /* SMACSS theme rules */
 /* @import "theme-A"; */
@@ -44,7 +47,8 @@ hr {
 }
 
 div#logo360 {
-	margin: -25px 0 0 78px;
+	display: none;
+//	margin: -25px 0 0 78px;
 }
 
 /* Nolan 29-11-2013

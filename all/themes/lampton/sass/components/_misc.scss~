@@ -158,7 +158,7 @@
     text-align: center; /* LTR */
 		/* Nolan 13-11-2013 */
 		text-transform: uppercase;
-		float: right;
+		float: left;
 
     li {
       /* A simple method to get navigation links to appear in one line. */
@@ -191,7 +191,7 @@
 /* Nolan 21-11-2013 
    Do rollover on the list items? */
 		a:hover {
-			background-color: #d1d3d4;
+			background-color: #e7e8e9;
 			color: black;
 		} 
   }

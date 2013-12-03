@@ -91,7 +91,7 @@ $font-monospace:   $courier;
 
 // Nolan 22-11-2013
 // Variable created for the margin indent of content
-$content-indent: 0 80px;
+$content-indent: 20% 8%;
 
 //
 // Colors, etc.
