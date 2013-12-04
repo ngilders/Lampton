@@ -225,3 +225,48 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+
+/* Nolan 4-11-2013
+ * Our Services tiles layout
+ */
+
+div#ourServiceContainer {
+	color: #969595; 
+	border-bottom: 1px solid #969595; 
+	margin-bottom: 30px;
+}
+
+.maxWidth {
+	width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+div.ourServiceTiles {
+	width: 245px; 
+	padding-bottom: 10px;
+	color: white; 
+	text-align: center; 
+}
+
+img.titleImg {
+	border-bottom: 4px solid white;
+}
+
+div#tilesLeft {
+	margin-right: 7%; 
+	float: left; 
+	background-color: #8cc63f; 
+}
+
+div#tilesCentre {
+	float: left; 
+	background-color: #d31245; 
+}
+
+div#tilesRight {
+	float: right; 
+	background-color: #00adef; 
+}

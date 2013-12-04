@@ -122,28 +122,28 @@ div#block-block-3 {
 	}
 
 	#navigation {
-border: 1px solid blue;
-position:absolute;
-z-index:1;
-width: 310px;
-height: 110px;
-float: left;
-background-color: white;
+//border: 1px solid blue;
+		position:absolute;
+		z-index:1;
+		width: 310px;
+		height: 110px;
+		float: left;
+		background-color: white;
 		padding: 0;
-margin: 5px 0 0 0 ;
+		margin: 5px 0 0 0 ;
 //margin: -700px 0 0 0;
 	}
 
 	#navigation .links li,
 	#navigation .menu li {
-display:block;
+		display:block;
 		float: none;
 	}
 
 	/* Nolan 3-11-2013
 		 Remove navigation float */
 	#navigation .links, #navigation .menu {
-padding-left: 10px;
+		padding-left: 10px;
 		float: right;
 	}
 
@@ -154,4 +154,45 @@ padding-left: 10px;
 		text-decoration: none;
 		color: black;
 		padding: 0;
+	}
+
+	h1 {
+		padding: 0 5px;
+	}
+
+	h2 {
+		padding: 0 5px;
+	}
+
+	h3 {
+		padding: 0 5px;
+	}
+
+	h4 {
+		padding: 0 5px;
+	}
+
+	h5 {
+		padding: 0 5px;
+	}
+
+	h6 {
+		padding: 0 5px;
+	}
+
+	div.ourServiceTiles {
+		width: 100px;
+	}
+
+	img.titleImg {
+		width: 100px;
+		height: 82px;
+	}
+
+	#footer {
+		padding: 0 5px;
+	}
+
+	div#tilesLeft {
+		margin-right: 2%; 
 	}
