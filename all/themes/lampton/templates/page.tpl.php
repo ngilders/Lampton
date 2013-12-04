@@ -12,11 +12,7 @@
 
   <header class="header" id="header" role="banner">
 
-    <?php if ($logo): ?>
-			<div id="logo360Main">
-      	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-			</div>
-    <?php endif; ?>
+  <!-- logo was here -->
 
     <?php if ($site_name || $site_slogan): ?>
       <div class="header__name-and-slogan" id="name-and-slogan">
@@ -53,27 +49,14 @@
   </header>
 
   <div id="main">
-
-    <div id="content" class="column" role="main">
-      <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?>
-    </div>
-
+	  
     <div id="navigation">
+
+		<?php if ($logo): ?>
+			<div id="logo360Main">
+      	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
+			</div>
+    <?php endif; ?>
 
       <?php if ($main_menu): ?>
         <nav id="main-menu" role="navigation" tabindex="-1">
@@ -98,7 +81,28 @@
 
       <?php print render($page['navigation']); ?>
 
+    </div>	  
+
+    <div id="content" class="column" role="main">
+      <?php print render($page['highlighted']); ?>
+      <?php print $breadcrumb; ?>
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+      <?php print $messages; ?>
+      <?php print render($tabs); ?>
+      <?php print render($page['help']); ?>
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+      <?php print $feed_icons; ?>
     </div>
+
+<!-- Nav was here -->
 
     <?php
       // Render the sidebars to see if there's anything in them.
@@ -120,3 +124,4 @@
 </div>
 
 <?php print render($page['bottom']); ?>
+

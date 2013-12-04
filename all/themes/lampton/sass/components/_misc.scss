@@ -68,7 +68,9 @@
     width: 100%;
     padding: 2px 0 3px 0;
     text-align: center;
-    background-color: #666;
+    /* Nolan 4-12-2013
+			 remove background colour to fix Chrome?
+		background-color: #666; */
     color: #fff;
   }
 }
@@ -87,7 +89,6 @@
 /* Logo image. */
 .header__logo-image {
   vertical-align: bottom;
-	margin-bottom: -95px;
 }
 
 /* Wrapper for website name and slogan. */
@@ -139,6 +140,9 @@
 #navigation {
   /* Sometimes you want to prevent overlapping with main div. */
   /* overflow: hidden; */
+	/* Nolan 4-12-2013
+		 Move nav block up */
+	margin-top: -2%;
 
   .block {
     margin-bottom: 0;
@@ -152,8 +156,8 @@
   /* Main menu and secondary menu links and menu block links. */
   .links,
   .menu {
-    margin: 0;
-    padding:0;
+    margin: 2% 0 0 0;
+    padding: 0;
 		//margin-top: 13px;
     text-align: center; /* LTR */
 		/* Nolan 13-11-2013 */
@@ -185,7 +189,7 @@
 		a {
 			text-decoration: none;
 			color: black;
-			padding: 28px 25px 27px 25px;
+			padding: 28px 25px 30px 25px;
 
 		}
 /* Nolan 21-11-2013 
