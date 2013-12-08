@@ -251,7 +251,7 @@ div.ourServiceTiles {
 	text-align: center; 
 }
 
-img.titleImg {
+img.tileImg {
 	border-bottom: 4px solid white;
 }
 
@@ -269,4 +269,46 @@ div#tilesCentre {
 div#tilesRight {
 	float: right; 
 	background-color: #00adef; 
+}
+
+/* Nolan 8-12-2013
+ * Disclaimer inc social media */
+
+div#disclaimerFooter {
+	margin-top: 20px; 
+	padding-top: 7px; 
+	width: 100%; 
+	border-top: 1px solid #969595;
+}
+
+div#disclaimerText {
+	float: left; 
+	width: 60%; 
+	font-size: x-small; 
+	margin-right: 10%; 
+	color: #969595;
+}
+
+ul#disclaimerTextList {
+	list-style-type: none;
+	float: left;
+	margin: -1px 0 0 -28px;
+}
+
+div#disclaimerSocialMedia {
+	float: right; 
+	width: 173px; 
+	font-size: x-small;
+}
+
+div.disclaimerTile {
+	float: left;
+}
+
+div.disclaimerTileLc {
+	margin-right: 13px;
+}
+
+div#disclaimerFooterBorder {
+	border-top: 1px solid #969595;
 }
