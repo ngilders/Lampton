@@ -180,13 +180,16 @@ $zen-auto-include-item-base: false;
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     #content {
-      @include zen-grid-item(4, 2);
+      //@include zen-grid-item(4, 2);
+		float: left;
+		margin-left: 25%;
+		margin-right: -100%;
+		width: 73%;
     }
 
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
       @include zen-grid-item(1, 1);
-			margin-top: 73px;
     }
   }
 
@@ -197,6 +200,7 @@ $zen-auto-include-item-base: false;
     /* Span 4 columns, starting in 1st column from left. */
     #content {
       @include zen-grid-item(4, 1);
+      border: 1px solid yellow;
     }
 
     /* Span 1 column, starting in 5th column from left. */

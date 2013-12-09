@@ -65,13 +65,10 @@ div#block-block-3 {
 	width: 300px;	
 }
 
-/* should override existing layouts for small screen builds
- *
- * This is a temp section below to be removed once testing complete
- * and then pasted into _handhelds.scss styles sheet
- *
- * 
- *
- */
-
-
+/* Nolan 9-12-2013
+ * Main left hand menu styling */
+ 
+div#block-system-main-menu {
+	width: 110%;
+	//margin-top: 33px;
+}
