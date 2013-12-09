@@ -30,9 +30,9 @@
 /* Nolan 20-11-2013 
 	 Main Home Page image */
 img.imageblock-image { 
-	//margin-top: 11px;
+	margin-top: -50px;
 	background-color: #d1d3d4;
-  padding: 2px 0 15px 0;
+	padding: 2px 0 15px 0;
 }
 
 
@@ -70,5 +70,20 @@ div#block-block-3 {
  
 div#block-system-main-menu {
 	width: 110%;
-	//margin-top: 33px;
+	margin-top: 57px;
+}
+
+#content {
+	margin-top: 50px;
+}
+
+div#block-block-7 {
+	margin-top: 68px;
+}
+
+hr#greyLine {
+	color: #d1d3d4;
+	background-color: #d1d3d4;
+	border: none;
+	height: 2px;
 }
