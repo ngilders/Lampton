@@ -516,12 +516,23 @@ span.field-label {
 /**
  * Menus.
  */
+ 
+/* Nolan 9-12-2013
+ * Left hand menu styling
+ */
+li.leaf {
+	//border-top: 1px solid red;
+}
+ 
 .menu__item.is-leaf {
   list-style-image: inline-image("menu-leaf.png");
   @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
     *list-style-image: image-url("menu-leaf.png");
   }
   list-style-type: square;
+  font-size: small;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 .menu__item.is-expanded {
   list-style-image: inline-image("menu-expanded.png");
@@ -529,6 +540,9 @@ span.field-label {
     *list-style-image: image-url("menu-expanded.png");
   }
   list-style-type: circle;
+  font-size: small;
+  text-transform: uppercase;
+  //border-bottom: 1px solid black;
 }
 .menu__item.is-collapsed {
   list-style-image: inline-image("menu-collapsed.png"); /* LTR */
@@ -536,6 +550,9 @@ span.field-label {
     *list-style-image: image-url("menu-collapsed.png"); /* LTR */
   }
   list-style-type: disc;
+  font-size: small;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 
 /* The active item in a Drupal menu. */
@@ -846,4 +863,11 @@ tr.selected td {
     background-color: #0072b9;
     background-image: image-url("progress.gif");
   }
+}
+
+/* Nolan 8-12-2013
+ * Sub leve navigation */
+ 
+ul.subNav360 {
+	border: 1px solid red;
 }

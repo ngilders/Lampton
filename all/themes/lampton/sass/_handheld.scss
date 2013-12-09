@@ -10,7 +10,7 @@
  * aggregated with other stylesheets, for improved front-end performance.
  */
 /* @media only screen and (max-device-width: 800px) { */
-//@media all and (max-device-width: 500px) {
+@media all and (max-device-width: 800px) {
 
 	article,
 	aside,
@@ -150,4 +150,4 @@
 		float: none;
 		margin: 0;
 	}
-//}
+}
