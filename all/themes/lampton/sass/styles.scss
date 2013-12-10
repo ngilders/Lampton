@@ -47,6 +47,15 @@ hr {
 	color: black;
 }
 
+a.contentLink {
+	/*color: #0000cf;*/
+}
+
+a.menu__link {
+	text-decoration: none;
+	color: black;
+}
+
 div#logo360Main {
 	//float: left;
 //	border: 1px solid green;
@@ -86,4 +95,27 @@ hr#greyLine {
 	background-color: #d1d3d4;
 	border: none;
 	height: 2px;
+}
+
+div.bioHolder {
+	width: 100%;
+}
+
+div.bioPicture {
+	float: left;
+	width: 139px;
+	padding: 25px 15px 0 0;
+}
+
+div.bioText {
+	float: left;
+	width: 71%;
+}
+
+set input:focus {
+	outline: 0 none !important;
+}
+
+*:focus {
+	outline: none;
 }
