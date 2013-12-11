@@ -955,24 +955,51 @@ img.tileImg {
 div#tilesLeft {
   margin-right: 7%;
   float: left;
-  background-color: #8cc63f;
 }
 
 /* line 268, ../sass/layouts/_responsive.scss */
 div#tilesCentre {
   float: left;
-  background-color: #d31245;
 }
 
 /* line 273, ../sass/layouts/_responsive.scss */
 div#tilesRight {
   float: right;
-  background-color: #00adef;
+}
+
+/* line 278, ../sass/layouts/_responsive.scss */
+div#tileGreen {
+  background-image: url("/drupal/sites/default/files/media/images/360_TileGreen1.png");
+  width: 245px;
+  height: 100px;
+}
+
+/* line 284, ../sass/layouts/_responsive.scss */
+div#tileRed {
+  background-image: url("/drupal/sites/default/files/media/images/360_TileRed1.png");
+  width: 245px;
+  height: 100px;
+}
+
+/* line 290, ../sass/layouts/_responsive.scss */
+div#tileBlue {
+  background-image: url("/drupal/sites/default/files/media/images/360_TileBlue1.png");
+  width: 245px;
+  height: 100px;
+}
+
+/* line 296, ../sass/layouts/_responsive.scss */
+a.tileLink {
+  padding-top: 20px;
+  display: block;
+  height: 80%;
+  color: white;
+  text-decoration: none;
 }
 
 /* Nolan 8-12-2013
  * Disclaimer inc social media */
-/* line 281, ../sass/layouts/_responsive.scss */
+/* line 306, ../sass/layouts/_responsive.scss */
 div#disclaimerFooter {
   margin-top: 20px;
   padding-top: 7px;
@@ -980,7 +1007,7 @@ div#disclaimerFooter {
   border-top: 1px solid #969595;
 }
 
-/* line 288, ../sass/layouts/_responsive.scss */
+/* line 313, ../sass/layouts/_responsive.scss */
 div#disclaimerText {
   float: left;
   width: 60%;
@@ -989,31 +1016,31 @@ div#disclaimerText {
   color: #969595;
 }
 
-/* line 296, ../sass/layouts/_responsive.scss */
+/* line 321, ../sass/layouts/_responsive.scss */
 ul#disclaimerTextList {
   list-style-type: none;
   float: left;
   margin: -1px 0 0 -28px;
 }
 
-/* line 302, ../sass/layouts/_responsive.scss */
+/* line 327, ../sass/layouts/_responsive.scss */
 div#disclaimerSocialMedia {
   float: right;
   width: 173px;
   font-size: x-small;
 }
 
-/* line 308, ../sass/layouts/_responsive.scss */
+/* line 333, ../sass/layouts/_responsive.scss */
 div.disclaimerTile {
   float: left;
 }
 
-/* line 312, ../sass/layouts/_responsive.scss */
+/* line 337, ../sass/layouts/_responsive.scss */
 div.disclaimerTileLc {
   margin-right: 13px;
 }
 
-/* line 316, ../sass/layouts/_responsive.scss */
+/* line 341, ../sass/layouts/_responsive.scss */
 div#disclaimerFooterBorder {
   border-top: 1px solid #969595;
 }
@@ -2160,11 +2187,11 @@ ul.subNav360 {
     /*		width: 100px;
     		height: 82px; */
     width: 100%;
-    height: 100%;
+    height: 30%;
   }
 
   /* line 136, ../sass/_handheld.scss */
-  p.tileText {
+  .tileText {
     font-size: small;
   }
 

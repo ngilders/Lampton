@@ -262,19 +262,44 @@ img.tileImg {
 div#tilesLeft {
 	margin-right: 7%; 
 	float: left; 
-	background-color: #8cc63f; 
+	//background-color: #8cc63f; 
 }
 
 div#tilesCentre {
 	float: left; 
-	background-color: #d31245; 
+	//background-color: #d31245; 
 }
 
 div#tilesRight {
 	float: right; 
-	background-color: #00adef; 
+	//background-color: #00adef; 
 }
 
+div#tileGreen {
+	background-image:url('/drupal/sites/default/files/media/images/360_TileGreen1.png');
+	width: 245px;
+	height: 100px;
+}
+
+div#tileRed {
+	background-image:url('/drupal/sites/default/files/media/images/360_TileRed1.png');
+	width: 245px;
+	height: 100px;
+}
+
+div#tileBlue {
+	background-image:url('/drupal/sites/default/files/media/images/360_TileBlue1.png');
+	width: 245px;
+	height: 100px;
+}
+
+a.tileLink {
+	padding-top: 20px;
+	display: block;
+	height: 80%;
+	color: white;
+	text-decoration: none;
+}
 /* Nolan 8-12-2013
  * Disclaimer inc social media */
 
