@@ -112,10 +112,27 @@ div.bioText {
 	width: 71%;
 }
 
+/* Nolan 10-12-2013
+ * Chrome orange box fix */
+
 set input:focus {
 	outline: 0 none !important;
 }
 
 *:focus {
 	outline: none;
+}
+
+.search-form {
+    /*margin-bottom: 1em;*/
+    margin-left: 8%;
+    width: 90%;
+}
+
+p.search-info {
+	display: none;
+}
+
+.lt-ie9 {
+	
 }

@@ -969,21 +969,21 @@ div#tilesRight {
 
 /* line 278, ../sass/layouts/_responsive.scss */
 div#tileGreen {
-  background-image: url("/drupal/sites/default/files/media/images/360_TileGreen1.png");
+  background-image: url("/sites/default/files/media/images/360_TileGreen1.png");
   width: 245px;
   height: 100px;
 }
 
 /* line 284, ../sass/layouts/_responsive.scss */
 div#tileRed {
-  background-image: url("/drupal/sites/default/files/media/images/360_TileRed1.png");
+  background-image: url("/sites/default/files/media/images/360_TileRed1.png");
   width: 245px;
   height: 100px;
 }
 
 /* line 290, ../sass/layouts/_responsive.scss */
 div#tileBlue {
-  background-image: url("/drupal/sites/default/files/media/images/360_TileBlue1.png");
+  background-image: url("/sites/default/files/media/images/360_TileBlue1.png");
   width: 245px;
   height: 100px;
 }
@@ -2211,6 +2211,24 @@ ul.subNav360 {
     float: none;
     margin: 0;
   }
+
+  /* line 154, ../sass/_handheld.scss */
+  div#tileGreen {
+    width: 100%;
+    height: 100px;
+  }
+
+  /* line 159, ../sass/_handheld.scss */
+  div#tileRed {
+    width: 100%;
+    height: 100px;
+  }
+
+  /* line 164, ../sass/_handheld.scss */
+  div#tileBlue {
+    width: 100%;
+    height: 100px;
+  }
 }
 /* SMACSS theme rules */
 /* @import "theme-A"; */
@@ -2308,12 +2326,26 @@ div.bioText {
   width: 71%;
 }
 
-/* line 115, ../sass/styles.scss */
+/* Nolan 10-12-2013
+ * Chrome orange box fix */
+/* line 118, ../sass/styles.scss */
 set input:focus {
   outline: 0 none !important;
 }
 
-/* line 119, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 *:focus {
   outline: none;
+}
+
+/* line 126, ../sass/styles.scss */
+.search-form {
+  /*margin-bottom: 1em;*/
+  margin-left: 8%;
+  width: 90%;
+}
+
+/* line 132, ../sass/styles.scss */
+p.search-info {
+  display: none;
 }
