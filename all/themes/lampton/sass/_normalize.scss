@@ -201,6 +201,7 @@ h1 {
 	/* Nolan 20-11-2013 
 		 variable declared:_init.scss line:94 */
 	padding: $content-indent;
+	font-weight: normal;
 }
 h2 {
   @include adjust-font-size-to( $h2-font-size );

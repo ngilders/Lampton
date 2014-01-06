@@ -30,7 +30,8 @@
 /* Nolan 20-11-2013 
 	 Main Home Page image */
 img.imageblock-image { 
-	margin-top: -50px;
+	/*margin-top: -50px;*/
+	margin-top: -1px;
 	background-color: #d1d3d4;
 	padding: 2px 0 15px 0;
 }
@@ -82,8 +83,8 @@ div#block-system-main-menu {
 	margin-top: 57px;
 }
 
-#content {
-	margin-top: 50px;
+div.region-help {
+	margin-top: 10px;
 }
 
 div#block-block-7 {
@@ -133,6 +134,12 @@ p.search-info {
 	display: none;
 }
 
-.lt-ie9 {
-	
+div#block-system-powered-by {
+	font-size: small;
+}
+
+div.subImgContainer {
+	/*float: right;
+	margin-right: -20px;	*/
+	margin: $content-indent;
 }

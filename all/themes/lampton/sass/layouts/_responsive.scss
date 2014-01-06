@@ -182,9 +182,12 @@ $zen-auto-include-item-base: false;
     #content {
       //@include zen-grid-item(4, 2);
 		float: left;
-		margin-left: 25%;
+		margin-left: 27%;
 		margin-right: -100%;
-		width: 73%;
+		width: 71%;
+		/* Nolan 6-1-2014
+		 * margin added for left hand nav line up */
+		margin-top: 50px;
     }
 
     /* Span 1 column, starting in 1st column from left. */
@@ -316,12 +319,18 @@ div#disclaimerText {
 	font-size: x-small; 
 	margin-right: 10%; 
 	color: #969595;
+	padding: 5px 0;
 }
 
 ul#disclaimerTextList {
 	list-style-type: none;
 	float: left;
-	margin: -1px 0 0 -28px;
+	margin: 0px;
+	padding: 0px;
+}
+
+li.disclaimerBullets {
+	margin-top: -7px;
 }
 
 div#disclaimerSocialMedia {
