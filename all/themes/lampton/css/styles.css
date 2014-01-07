@@ -2244,75 +2244,96 @@ ul.subNav360 {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+/* Nolan 07-01-2014
+ * 	Float classes */
+/* line 32, ../sass/styles.scss */
+.floatRight {
+  float: right;
+}
+
+/* line 36, ../sass/styles.scss */
+.floatLeft {
+  float: left;
+}
+
 /* Nolan 20-11-2013 
 	 Main Home Page image */
-/* line 32, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 img.imageblock-image {
-  /*margin-top: -50px;*/
-  margin-top: -1px;
+  /*margin-top: -50px;
+  margin-top: -1px;*/
   background-color: #d1d3d4;
   padding: 2px 0 15px 0;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
+div#homeCarousel {
+  background-color: #d1d3d4;
+  /*
+  height: 392px;
+  padding-bottom: 1px;
+  padding: 2px 0 15px 0;*/
+}
+
+/* line 58, ../sass/styles.scss */
 div.region-header {
   float: right;
   margin-bottom: 10px;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 hr {
   height: 0px;
   color: black;
 }
 
-/* line 51, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 a.contentLink {
   /*color: #0000cf;*/
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 a.menu__link {
   text-decoration: none;
   color: black;
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 div#logo360Main {
   margin: 0 8%;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 div#logo360 {
   display: none;
 }
 
 /* Nolan 29-11-2013
  	 Logo block width */
-/* line 74, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 div#block-block-3 {
   width: 300px;
 }
 
 /* Nolan 9-12-2013
  * Main left hand menu styling */
-/* line 81, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 div#block-system-main-menu {
   width: 110%;
   margin-top: 57px;
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 div.region-help {
   margin-top: 10px;
 }
 
-/* line 90, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 div#block-block-7 {
   margin-top: 68px;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 hr#greyLine {
   color: #d1d3d4;
   background-color: #d1d3d4;
@@ -2320,19 +2341,19 @@ hr#greyLine {
   height: 2px;
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 div.bioHolder {
   width: 100%;
 }
 
-/* line 105, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 div.bioPicture {
   float: left;
   width: 139px;
   padding: 25px 15px 0 0;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 div.bioText {
   float: left;
   width: 71%;
@@ -2340,34 +2361,34 @@ div.bioText {
 
 /* Nolan 10-12-2013
  * Chrome orange box fix */
-/* line 119, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 set input:focus {
   outline: 0 none !important;
 }
 
-/* line 123, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 *:focus {
   outline: none;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 .search-form {
   /*margin-bottom: 1em;*/
   margin-left: 8%;
   width: 90%;
 }
 
-/* line 133, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 p.search-info {
   display: none;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 div#block-system-powered-by {
   font-size: small;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 div.subImgContainer {
   /*float: right;
   margin-right: -20px;	*/
