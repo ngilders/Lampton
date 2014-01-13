@@ -2,3 +2,31 @@ div#navigation {
 	margin-top: 50px;
 	height: 70px;
 }
+
+div#navigation {
+	margin-bottom: -45px;
+}
+
+.sidebar-first #content {
+	float: left;
+	margin-left: 27%;
+	width: 71%;
+	margin-top: 80px;
+}
+
+.sidebar-first .region-sidebar-first {
+	float: left;
+	width: 22%;
+	margin-left: -90%;
+	margin-right: -20%;
+}
+
+hr#greyLine {
+	float: left;
+	width: 100%;
+	margin-top: -42px;
+}
+
+div#carouselContainterTop {
+	margin-top: 45px;
+}

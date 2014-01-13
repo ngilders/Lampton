@@ -192,7 +192,11 @@ $zen-auto-include-item-base: false;
 
     /* Span 1 column, starting in 1st column from left. */
     .region-sidebar-first {
-      @include zen-grid-item(1, 1);
+		//@include zen-grid-item(1, 1);
+		float: left;
+		width: 22%;
+		margin-left: 0%;
+		margin-right: -20%;
     }
   }
 

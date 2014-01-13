@@ -543,6 +543,7 @@ span.field-label {
   text-transform: uppercase;
   color: black;
   border-bottom: 1px solid black;
+  width: 95%;
 }
 .menu__item.is-collapsed {
   list-style-image: inline-image("360_liNavPoints.jpg"); /* LTR */
@@ -554,6 +555,7 @@ span.field-label {
   font-size: small;
   text-transform: uppercase;
   border-bottom: 1px solid black;
+  width: 95%;
 }
 
 /* The active item in a Drupal menu. */
