@@ -47,7 +47,7 @@ img.imageblock-image {
 }
 
 div#carouselContainterTop {
-	height: 396px;
+	height: 100%;
 	background-color: #d1d3d4;
 	/*
 	height: 392px;
@@ -55,6 +55,9 @@ div#carouselContainterTop {
 	padding: 2px 0 15px 0;*/
 }
 
+li.bxsliderLiPoint {
+	border-bottom: 10px solid #d1d3d4;  
+}
 
 div.region-header { 
 	float: right; 
