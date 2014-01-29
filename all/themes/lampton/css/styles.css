@@ -698,7 +698,7 @@ table {
 }
 
 /* Navigation bar */
-@media all and (min-width: 480px) {
+@media all and (min-width: 320px) {
   /* line 74, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
@@ -720,7 +720,7 @@ table {
 /**
  * Use 3 grid columns for smaller screens.
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 320px) and (max-width: 959px) {
   /**
    * The layout when there is only one sidebar, the left one.
    */
@@ -935,14 +935,17 @@ div#ourServiceContainer {
 /* line 250, ../sass/layouts/_responsive.scss */
 .maxWidth {
   width: 100%;
+  margin-top: -10px;
+  border: 1px solid white;
+  padding-right: 15px;
 }
 
-/* line 254, ../sass/layouts/_responsive.scss */
+/* line 257, ../sass/layouts/_responsive.scss */
 .clear {
   clear: both;
 }
 
-/* line 258, ../sass/layouts/_responsive.scss */
+/* line 261, ../sass/layouts/_responsive.scss */
 div.ourServiceTiles {
   width: 245px;
   padding-bottom: 10px;
@@ -950,49 +953,57 @@ div.ourServiceTiles {
   text-align: center;
 }
 
-/* line 265, ../sass/layouts/_responsive.scss */
+/* line 268, ../sass/layouts/_responsive.scss */
 img.tileImg {
   border-bottom: 4px solid white;
 }
 
-/* line 269, ../sass/layouts/_responsive.scss */
+/* line 272, ../sass/layouts/_responsive.scss */
 div#tilesLeft {
-  margin-right: 7%;
   float: left;
+  margin-right: 52px;
 }
 
-/* line 275, ../sass/layouts/_responsive.scss */
+/* line 279, ../sass/layouts/_responsive.scss */
 div#tilesCentre {
   float: left;
-}
-
-/* line 280, ../sass/layouts/_responsive.scss */
-div#tilesRight {
-  float: right;
+  margin-right: 52px;
 }
 
 /* line 285, ../sass/layouts/_responsive.scss */
+div#tilesRight {
+  float: left;
+}
+
+/* line 290, ../sass/layouts/_responsive.scss */
 div#tileGreen {
   background-image: url("/sites/default/files/media/images/360_TileGreen1.png");
   width: 245px;
   height: 100px;
 }
 
-/* line 291, ../sass/layouts/_responsive.scss */
+/* line 296, ../sass/layouts/_responsive.scss */
 div#tileRed {
   background-image: url("/sites/default/files/media/images/360_TileRed1.png");
   width: 245px;
   height: 100px;
 }
 
-/* line 297, ../sass/layouts/_responsive.scss */
+/* line 302, ../sass/layouts/_responsive.scss */
 div#tileBlue {
   background-image: url("/sites/default/files/media/images/360_TileBlue1.png");
   width: 245px;
   height: 100px;
 }
 
-/* line 303, ../sass/layouts/_responsive.scss */
+/* line 308, ../sass/layouts/_responsive.scss */
+div.tileAll {
+  margin-top: -107px;
+  width: 245px;
+  height: 77px;
+}
+
+/* line 314, ../sass/layouts/_responsive.scss */
 a.tileLink {
   padding-top: 20px;
   display: block;
@@ -1001,9 +1012,45 @@ a.tileLink {
   text-decoration: none;
 }
 
+/* line 322, ../sass/layouts/_responsive.scss */
+#smallTileContainer {
+  margin-top: -40px;
+  padding-left: 2px;
+  height: 160px;
+  width: 841px;
+}
+
+/* line 329, ../sass/layouts/_responsive.scss */
+ul#smallTileList {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+/* line 334, ../sass/layouts/_responsive.scss */
+li.smallTileList {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 339, ../sass/layouts/_responsive.scss */
+li.smallTileListEnd {
+  float: left;
+}
+
+/* line 343, ../sass/layouts/_responsive.scss */
+.smTileAll {
+  margin-top: -81px;
+}
+
+/* line 347, ../sass/layouts/_responsive.scss */
+.smTileAll {
+  font-size: small;
+  text-align: center;
+}
+
 /* Nolan 8-12-2013
  * Disclaimer inc social media */
-/* line 313, ../sass/layouts/_responsive.scss */
+/* line 355, ../sass/layouts/_responsive.scss */
 div#disclaimerFooter {
   margin-top: 20px;
   padding-top: 7px;
@@ -1011,7 +1058,7 @@ div#disclaimerFooter {
   border-top: 1px solid #969595;
 }
 
-/* line 320, ../sass/layouts/_responsive.scss */
+/* line 362, ../sass/layouts/_responsive.scss */
 div#disclaimerText {
   float: left;
   width: 60%;
@@ -1021,7 +1068,7 @@ div#disclaimerText {
   padding: 5px 0;
 }
 
-/* line 329, ../sass/layouts/_responsive.scss */
+/* line 371, ../sass/layouts/_responsive.scss */
 ul#disclaimerTextList {
   list-style-type: none;
   float: left;
@@ -1029,31 +1076,32 @@ ul#disclaimerTextList {
   padding: 0px;
 }
 
-/* line 336, ../sass/layouts/_responsive.scss */
+/* line 378, ../sass/layouts/_responsive.scss */
 li.disclaimerBullets {
-  margin-top: -7px;
+  margin-top: -3px;
 }
 
-/* line 340, ../sass/layouts/_responsive.scss */
+/* line 382, ../sass/layouts/_responsive.scss */
 div#disclaimerSocialMedia {
   float: right;
   width: 173px;
   font-size: x-small;
 }
 
-/* line 346, ../sass/layouts/_responsive.scss */
+/* line 388, ../sass/layouts/_responsive.scss */
 div.disclaimerTile {
   float: left;
 }
 
-/* line 350, ../sass/layouts/_responsive.scss */
+/* line 392, ../sass/layouts/_responsive.scss */
 div.disclaimerTileLc {
   margin-right: 13px;
 }
 
-/* line 354, ../sass/layouts/_responsive.scss */
+/* line 396, ../sass/layouts/_responsive.scss */
 div#disclaimerFooterBorder {
   border-top: 1px solid #969595;
+  width: 823px;
 }
 
 /* Component (SMACSS module) rules */
@@ -2070,192 +2118,57 @@ ul.subNav360 {
  * By importing this CSS file as media "all", we allow this print file to be
  * aggregated with other stylesheets, for improved front-end performance.
  */
-/* @media only screen and (max-device-width: 800px) {*/
-@media all and (max-device-width: 800px) {
+@media all and (max-device-width: 320px) {
+  /* line 16, ../sass/_handheld.scss */
+  /* line 16, ../sass/_handheld.scss */
+  #page {
+    width: 1000px;
+  }
+
+  /* line 20, ../sass/_handheld.scss */
   /* line 25, ../sass/_handheld.scss */
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  main,
-  nav,
-  section,
-  summary {
-    display: block;
-    padding: 0 5px;
+  .sidebar-first #content {
+    margin-top: 50px;
   }
 
-  /* line 30, ../sass/_handheld.scss */
-  header {
-    padding: 0 2%;
+  /* line 29, ../sass/_handheld.scss */
+  .smTileAll {
+    margin-top: -79px;
+  }
+}
+@media all and (max-device-width: 800px) {
+  /* line 29, ../sass/_handheld.scss */
+  /* line 36, ../sass/_handheld.scss */
+  #page {
+    width: 1000px;
   }
 
-  /* line 35, ../sass/_handheld.scss */
-  #header {
-    display: none;
+  /* line 40, ../sass/_handheld.scss */
+  .sidebar-first #content {
+    margin-top: 50px;
+  }
+}
+@media all and (max-device-width: 1024px) {
+  /* line 29, ../sass/_handheld.scss */
+  /* line 47, ../sass/_handheld.scss */
+  #page {
+    width: 1024px;
   }
 
-  /* line 39, ../sass/_handheld.scss */
-  .inline {
-    padding: 0;
+  /* line 51, ../sass/_handheld.scss */
+  .sidebar-first #content {
+    margin-top: 50px;
   }
-  /* line 42, ../sass/_handheld.scss */
-  .inline li {
-    list-style-type: none;
-    padding: 0 1em 0 0;
-  }
-
-  /* line 56, ../sass/_handheld.scss */
-  img.header__logo-image {
-    width: 150px;
-    height: 38px;
+}
+@media all and (max-device-width: 1280px) {
+  /* line 58, ../sass/_handheld.scss */
+  #page {
+    width: 1280px;
   }
 
-  /* line 61, ../sass/_handheld.scss */
-  #navigation {
-    position: absolute;
-    z-index: 1;
-    width: 310px;
-    height: 110px;
-    float: left;
-    background-color: white;
-    padding: 0;
-    margin: 5px 0 0 0;
-  }
-
-  /* line 75, ../sass/_handheld.scss */
-  #navigation .links li,
-  #navigation .menu li {
-    display: block;
-    float: none;
-  }
-
-  /*
-  	#navigation .links, #navigation .menu {
-  		padding-left: 10px;
-  		float: right;
-  	}
-  */
-  /* line 86, ../sass/_handheld.scss */
-  #navigation .links a,
-  #navigation .menu a {
-    text-decoration: none;
-    color: black;
-    padding: 0;
-  }
-
-  /* line 92, ../sass/_handheld.scss */
-  div#carouselContainterTop {
-    height: 1px;
-  }
-
-  /* line 96, ../sass/_handheld.scss */
-  h1 {
-    padding: 0 5px;
-  }
-
-  /* line 100, ../sass/_handheld.scss */
-  h2 {
-    padding: 0 5px;
-  }
-
-  /* line 104, ../sass/_handheld.scss */
-  h3 {
-    padding: 0 5px;
-  }
-
-  /* line 108, ../sass/_handheld.scss */
-  h4 {
-    padding: 0 5px;
-  }
-
-  /* line 112, ../sass/_handheld.scss */
-  h5 {
-    padding: 0 5px;
-  }
-
-  /* line 116, ../sass/_handheld.scss */
-  h6 {
-    padding: 0 5px;
-  }
-
-  /* line 120, ../sass/_handheld.scss */
-  div.ourServiceTiles {
-    width: 32%;
-  }
-
-  /* line 125, ../sass/_handheld.scss */
-  img.tileImg {
-    width: 100%;
-    height: 30%;
-  }
-
-  /* line 130, ../sass/_handheld.scss */
-  .tileText {
-    font-size: small;
-  }
-
-  /* line 134, ../sass/_handheld.scss */
-  #footer {
-    padding: 0 5px;
-  }
-
-  /* line 138, ../sass/_handheld.scss */
-  div#tilesLeft {
-    margin-right: 2%;
-  }
-
-  /* line 142, ../sass/_handheld.scss */
-  ul#disclaimerTextList {
-    list-style-type: disc;
-    float: none;
-    margin: 0;
-  }
-
-  /* line 148, ../sass/_handheld.scss */
-  div#tileGreen {
-    width: 100%;
-    height: 100px;
-    background-image: none;
-    background-color: #8cc63e;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-  }
-
-  /* line 158, ../sass/_handheld.scss */
-  div#tileRed {
-    width: 100%;
-    height: 100px;
-    background-image: none;
-    background-color: #d31346;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-  }
-
-  /* line 168, ../sass/_handheld.scss */
-  div#tileBlue {
-    width: 100%;
-    height: 100px;
-    background-image: none;
-    background-color: #00adef;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-  }
-
-  /* line 178, ../sass/_handheld.scss */
-  .disclaimerBullets {
-    list-style-type: none;
-  }
-
-  /* line 182, ../sass/_handheld.scss */
-  div#block-system-main-menu {
-    padding-top: 1px;
+  /* line 62, ../sass/_handheld.scss */
+  .sidebar-first #content {
+    margin-top: 50px;
   }
 }
 /* SMACSS theme rules */
@@ -2285,98 +2198,114 @@ img.imageblock-image {
 
 /* line 49, ../sass/styles.scss */
 div#carouselContainterTop {
+  margin-top: -1px;
   height: 100%;
   background-color: #d1d3d4;
+  padding-top: 1px;
   /*
   height: 392px;
   padding-bottom: 1px;
   padding: 2px 0 15px 0;*/
 }
 
-/* line 58, ../sass/styles.scss */
+/* Nolan 16-01-2014
+ * Hack to add the border at the bottom of the Carousel
+ * relates to: _handheld.scss line 100
+ * */
+/* line 63, ../sass/styles.scss */
 li.bxsliderLiPoint {
   border-bottom: 10px solid #d1d3d4;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 div.region-header {
   float: right;
   margin-bottom: 10px;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 hr {
   height: 0px;
   color: black;
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 a.contentLink {
   /*color: #0000cf;*/
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 a.menu__link {
   text-decoration: none;
   color: black;
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
+a#logo {
+  margin-top: -11px;
+}
+
+/* line 91, ../sass/styles.scss */
 div#logo360Main {
   margin: 0 8%;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 div#logo360 {
   display: none;
 }
 
 /* Nolan 29-11-2013
  	 Logo block width */
-/* line 96, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 div#block-block-3 {
   width: 300px;
 }
 
 /* Nolan 9-12-2013
  * Main left hand menu styling */
-/* line 103, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 div#block-system-main-menu {
   width: 110%;
   margin-top: 57px;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 div.region-help {
   margin-top: 10px;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 div#block-block-7 {
   margin-top: 68px;
 }
 
-/* line 116, ../sass/styles.scss */
+/* Nolan Amendment 23-01-2014
+ * 
+ * Lastday!
+ * */
+/* line 129, ../sass/styles.scss */
 hr#greyLine {
   color: #d1d3d4;
   background-color: #d1d3d4;
   border: none;
-  height: 2px;
+  height: 3px;
+  margin-top: -1px;
 }
 
-/* line 123, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 div.bioHolder {
   width: 100%;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 div.bioPicture {
   float: left;
   width: 139px;
   padding: 25px 15px 0 0;
 }
 
-/* line 133, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 div.bioText {
   float: left;
   width: 71%;
@@ -2384,36 +2313,41 @@ div.bioText {
 
 /* Nolan 10-12-2013
  * Chrome orange box fix */
-/* line 141, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 set input:focus {
   outline: 0 none !important;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 *:focus {
   outline: none;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 .search-form {
   /*margin-bottom: 1em;*/
   margin-left: 8%;
   width: 90%;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 p.search-info {
   display: none;
 }
 
-/* line 159, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 div#block-system-powered-by {
   font-size: small;
 }
 
-/* line 163, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 div.subImgContainer {
   /*float: right;
   margin-right: -20px;	*/
   margin: 0 8%;
+}
+
+/* line 183, ../sass/styles.scss */
+p#ourServices {
+  padding-bottom: -50px;
 }

@@ -70,7 +70,7 @@ $zen-auto-include-item-base: false;
 }
 
 /* Navigation bar */
-@media all and (min-width: 480px) {
+@media all and (min-width: 320px) {
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: $nav-height;
@@ -92,7 +92,7 @@ $zen-auto-include-item-base: false;
 /**
  * Use 3 grid columns for smaller screens.
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 320px) and (max-width: 959px) {
 
   $zen-column-count: 3;
 
@@ -249,6 +249,9 @@ div#ourServiceContainer {
 
 .maxWidth {
 	width: 100%;
+	margin-top: -10px;
+	border: 1px solid white; 
+	padding-right: 15px;
 }
 
 .clear {
@@ -267,18 +270,20 @@ img.tileImg {
 }
 
 div#tilesLeft {
-	margin-right: 7%; 
 	float: left; 
+	margin-right: 52px; 
+	//margin-right: 7%; 
 	//background-color: #8cc63f; 
 }
 
 div#tilesCentre {
 	float: left; 
+	margin-right: 52px;
 	//background-color: #d31245; 
 }
 
 div#tilesRight {
-	float: right; 
+	float: left; 
 	//background-color: #00adef; 
 }
 
@@ -300,6 +305,12 @@ div#tileBlue {
 	height: 100px;
 }
 
+div.tileAll {
+  margin-top: -107px;
+  width: 245px;
+  height: 77px;
+}
+
 a.tileLink {
 	padding-top: 20px;
 	display: block;
@@ -307,6 +318,37 @@ a.tileLink {
 	color: white;
 	text-decoration: none;
 }
+
+#smallTileContainer {
+	margin-top: -40px;
+	padding-left: 2px;
+	height: 160px;
+	width: 841px;
+}
+
+ul#smallTileList {
+	list-style-type: none;
+	margin-left: -30px;
+}
+
+li.smallTileList {
+	float: left;
+	margin-right: 15px;
+}
+
+li.smallTileListEnd {
+	float: left;
+}
+
+.smTileAll {
+	margin-top: -81px;
+}
+
+.smTileAll {
+	font-size: small;
+	text-align: center;
+}
+
 /* Nolan 8-12-2013
  * Disclaimer inc social media */
 
@@ -334,7 +376,7 @@ ul#disclaimerTextList {
 }
 
 li.disclaimerBullets {
-	margin-top: -7px;
+	margin-top: -3px;
 }
 
 div#disclaimerSocialMedia {
@@ -353,4 +395,5 @@ div.disclaimerTileLc {
 
 div#disclaimerFooterBorder {
 	border-top: 1px solid #969595;
+	width: 823px;
 }

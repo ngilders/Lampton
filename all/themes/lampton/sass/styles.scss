@@ -47,14 +47,19 @@ img.imageblock-image {
 }
 
 div#carouselContainterTop {
+	margin-top: -1px;
 	height: 100%;
 	background-color: #d1d3d4;
+	padding-top: 1px;
 	/*
 	height: 392px;
 	padding-bottom: 1px;
 	padding: 2px 0 15px 0;*/
 }
-
+/* Nolan 16-01-2014
+ * Hack to add the border at the bottom of the Carousel
+ * relates to: _handheld.scss line 100
+ * */
 li.bxsliderLiPoint {
 	border-bottom: 10px solid #d1d3d4;  
 }
@@ -77,6 +82,10 @@ a.contentLink {
 a.menu__link {
 	text-decoration: none;
 	color: black;
+}
+
+a#logo {
+    margin-top: -11px;
 }
 
 div#logo360Main {
@@ -113,11 +122,16 @@ div#block-block-7 {
 	margin-top: 68px;
 }
 
+/* Nolan Amendment 23-01-2014
+ * 
+ * Lastday!
+ * */
 hr#greyLine {
 	color: #d1d3d4;
 	background-color: #d1d3d4;
 	border: none;
-	height: 2px;
+	height: 3px;
+	margin-top: -1px;
 }
 
 div.bioHolder {
@@ -164,4 +178,8 @@ div.subImgContainer {
 	/*float: right;
 	margin-right: -20px;	*/
 	margin: $content-indent;
+}
+
+p#ourServices {
+	padding-bottom: -50px;
 }

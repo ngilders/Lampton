@@ -63,8 +63,11 @@
   clear: both;
 }
 
-/* Navigation bar */
-@media all and (min-width: 480px) {
+/* Navigation bar 
+ * 
+ * Nolan was 480px
+ * */
+@media all and (min-width: 320px) {
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: 3em;
@@ -81,8 +84,10 @@
 
 /**
  * Use 3 grid columns for smaller screens.
+ * 
+ * Nolan was 480px
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 320px) and (max-width: 959px) {
 
   /**
    * The layout when there is only one sidebar, the left one.

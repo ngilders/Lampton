@@ -9,177 +9,57 @@
  * By importing this CSS file as media "all", we allow this print file to be
  * aggregated with other stylesheets, for improved front-end performance.
  */
-/* @media only screen and (max-device-width: 800px) {*/
+
+@media all and (max-device-width: 320px) {
+  /* line 16, ../sass/_handheld.scss */
+
+  #page {
+    width: 1000px;
+  }
+
+  /* line 20, ../sass/_handheld.scss */
+  div#main {
+   // margin-top: 50px;
+  }
+
+  .sidebar-first #content {
+    margin-top: 50px;
+  }
+  
+  .smTileAll {
+	margin-top: -79px;
+  }
+
+}
 @media all and (max-device-width: 800px) {
+  /* line 29, ../sass/_handheld.scss */
+  #page {
+    width: 1000px;
+  }
 
-	article,
-	aside,
-	details,
-	figcaption,
-	figure,
-	footer,
-	header,
-	main,
-	nav,
-	section,
-	summary {
-		display: block;
-		padding: 0 5px;
-	}
+  .sidebar-first #content {
+    margin-top: 50px;
+  }
+}
 
-	header {
-		//display: block;
-		padding: 0 2%;
-	}
+@media all and (max-device-width: 1024px) {
+  /* line 29, ../sass/_handheld.scss */
+  #page {
+    width: 1024px;
+  }
 
-	#header {
-		display: none;
-	}
+  .sidebar-first #content {
+    margin-top: 50px;
+  }
+}
 
-	.inline {
-		padding: 0;
+@media all and (max-device-width: 1280px) {
 
-		li {
-		  list-style-type: none;
-		  padding: 0 1em 0 0;
-		}
-	}
-
-	div#logo360Main {
-		//display: none;
-	}
-
-	#main-menu {
-//		border: 1px solid red;
-	}
-
-	img.header__logo-image {
-		width: 150px;
-		height: 38px;
-	}
-
-	#navigation {
-//border: 1px solid blue;
-		position:absolute;
-		z-index:1;
-		width: 310px;
-		height: 110px;
-		float: left;
-		background-color: white;
-		padding: 0;
-		margin: 5px 0 0 0 ;
-//margin: -700px 0 0 0;
-	}
-
-	#navigation .links li,
-	#navigation .menu li {
-		display:block;
-		float: none;
-	}
-/*
-	#navigation .links, #navigation .menu {
-		padding-left: 10px;
-		float: right;
-	}
-*/
-	#navigation .links a,
-	#navigation .menu a {
-		text-decoration: none;
-		color: black;
-		padding: 0;
+	#page {
+		width: 1280px;
 	}
 	
-	div#carouselContainterTop {
-		height: 1px;
-	}
-
-	h1 {
-		padding: 0 5px;
-	}
-
-	h2 {
-		padding: 0 5px;
-	}
-
-	h3 {
-		padding: 0 5px;
-	}
-
-	h4 {
-		padding: 0 5px;
-	}
-
-	h5 {
-		padding: 0 5px;
-	}
-
-	h6 {
-		padding: 0 5px;
-	}
-
-	div.ourServiceTiles {
-		//width: 100px;
-		width: 32%;
-	}
-
-	img.tileImg {
-		width: 100%;
-		height: 30%;
-	}
-	
-	.tileText {
-		font-size: small;
-	}
-
-	#footer {
-		padding: 0 5px;
-	}
-
-	div#tilesLeft {
-		margin-right: 2%; 
-	}
-	
-	ul#disclaimerTextList {
-		list-style-type: disc;
-		float: none;
-		margin: 0;
-	}
-	
-	div#tileGreen {
-		width: 100%;
-		height: 100px;
-		background-image: none;
-		background-color: #8cc63e;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		border-radius: 20px;
-	}
-
-	div#tileRed {
-		width: 100%;
-		height: 100px;
-		background-image: none;
-		background-color: #d31346;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		border-radius: 20px;
-	}
-
-	div#tileBlue {
-		width: 100%;
-		height: 100px;
-		background-image: none;
-		background-color: #00adef;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		border-radius: 20px;
-	}
-	
-	.disclaimerBullets {
-		list-style-type: none;
-	}
-	
-	div#block-system-main-menu {
-		padding-top: 1px;
+	.sidebar-first #content {
+		margin-top: 50px;
 	}
 }
