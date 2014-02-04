@@ -24,6 +24,8 @@
     <meta name="viewport" content="width=device-width">
   <?php endif; ?>
   <meta http-equiv="cleartype" content="on">
+  <meta name="description" content="Lampton360 operates a diverse range of individually focused businesses which combine expertise and knowledge from the commercial and public sectors." />
+  <meta name="keywords" content="Hounslow, London, Creative design, advertising, sponsorship, business transformation, continuous improvement, consultancy, training, lean, educate, education, schools, teaching, teachers, events, event, lampton park conference centre, AV, audio visual, video, venue, catering, weddings, designing, print, flyers, posters, pamphlets, magazines, brochures, newsletters, branding, marketing, annual reports, banners, signage, web design, photography, illustration, photography" />
 
   <?php print $styles; ?>
   <?php print $scripts; ?>
